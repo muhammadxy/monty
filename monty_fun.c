@@ -50,8 +50,7 @@ exit(-1);
 instruct_func get_op_func(char *str)
 {
 int i;
-instruction_t instruct[] =
-{
+instruction_t instruct[] = {
 {"push", _push},
 {"pall", _pall},
 {"pint", _pint},
